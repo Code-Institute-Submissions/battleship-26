@@ -112,8 +112,13 @@ def user_input(place_ship):
                 print('Emter a valid letter between A-H') 
         return row, column                                          
 
-def count_hit_ships():
-    pass
+def count_hit_ships(board):
+    count = 0
+    for row in board:
+        if column == "X":
+            count += 1
+    return count
+    
 
 def turn(board):
     pass
