@@ -24,8 +24,18 @@ def place_ships(board):
                 orientation, row, column = random.choice(["H", "V"]), random.randint(0, 7), random.randint(0, 7)
                 if check_ship_fit(ship_length, row, column, orientation):
 
-def check_ship_fit():
-    pass
+def check_ship_fit(SHIP_LENGTH, row, column, orientation):
+    if orientation == "H":
+        if column + SHIP_LENGTH > 8:
+            return False
+        else:
+            return True
+    else:
+        if row + SHIP_LENGTH > 8:
+            return False
+        else:
+            return True           
+    
 
 def ship_overlap():
     pass
