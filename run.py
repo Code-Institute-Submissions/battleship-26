@@ -130,10 +130,26 @@ def turn(board):
         elif COMPUTER_BOARD[row][column] == "X":
             board[row][column] = "X"
         else:
-            board[row][column] == "_"     
+            board[row][column] == "_" 
+    else:
+        row, column = random.randint(0, 7), random.randint(0, 7)
+        if board[row][column] == "_":
+            turn(board)
+        elif board[row][column] == "X":
+            turn(board)
+        elif COMPUTER_BOARD[row][column] == "X":
+            board[row][column] = "X"
+        else:
+            board[row][column] == "_"
+
+place_ships(COMPUTER_BOARD)
+print_board(COMPUTER_BOARD)
+print_board(PLAYER_BOARD)
+place_ships(PLAYER_BOARD)
 
 
 while True:
+    #player turn
 
 
 
