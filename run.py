@@ -16,7 +16,13 @@ def print_board(board):
         row_number += 1
 
 def place_ships(board):
-    pass
+    # loop through the length of the ships
+    for ship_length in LENGTH_OF_SHIPS:
+        #loop through until the ship fits and no overlap
+        while True:
+            if board == COMPUTER_BOARD: #if computer randomly place pieces that fit on board
+                orientation, row, column = random.choice(["H", "V"]), random.randint(0, 7), random.randint(0, 7)
+                if check_ship_fit(ship_length, row, column, orientation):
 
 def check_ship_fit():
     pass
