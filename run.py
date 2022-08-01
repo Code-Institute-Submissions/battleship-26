@@ -1,3 +1,7 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+LENGTH_OF_SHIPS = [2,3,3,4,5] # Length of ships
+PLAYER_BOARD = [[" "] * 8 for i in range(8)] #the player board
+COMPUTER_BOARD = [[" "] * 8 for i in range(8)] 
+
+
