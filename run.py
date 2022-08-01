@@ -36,7 +36,19 @@ def place_ships(board):
             else:
                 place_ship = True
                 print('Place the ship with a length of ' + str(ship_length))
-                row, column, orientation = user_input(place_ship)       
+                row, column, orientation = user_input(place_ship)
+                if check_ship_fit(ship_length, row, column, orientation):
+                    #check if ship overlaps
+                    if ship_overlaps(board, row, column, orientation, ship_length) == False:
+                        #place ships
+                        if orientation == "H":
+                            for i in range(column, column + ship_length):
+                                board[row][i] = "X"
+                        else:
+                            for i in range(row, row + ship_length):
+                                board[row][i] = "X"
+                        print_board(PLAYER_BOARD)
+                        break         
 
 def check_ship_fit(SHIP_LENGTH, row, column, orientation):
     if orientation == "H":
@@ -63,8 +75,18 @@ def ship_overlap(board, row, column, orientation, ship_length):
     return False                       
     
 
-def user_input():
-    pass
+def user_input(place_ship):
+    if place_ship == True:
+        while True:
+            try:
+                orientation = input("Enter orientation (H or V):").upper() # accepts uppercase and lowercase H or V
+                if orientation == "H" or orientation == "V":
+                    break
+            except TypeError:
+                print('Please enter a valid orientation H or V') 
+        while True:
+            try:
+                row = input("Enter the row 1-8 of the battleship: ")   
 
 def count_hit_ships():
     pass
