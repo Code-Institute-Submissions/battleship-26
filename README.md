@@ -109,7 +109,7 @@ This battleship game has a few features that make it a little more advance.
 
 # Bugs
 * There were a few bugs where when the game is loaded in it displays the enemy battleships location and I could not remove it in time.
-* There are a few syntax errors that created problems.
+* There are a few syntax errors that created problems but were resolved.
 * There were many lines of code not in place as the code would not run so I had to fix the layout of the code to make sure there were not any code out of place.
   ![Python Errors](images/errors_code.jpg)
 
