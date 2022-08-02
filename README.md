@@ -108,9 +108,12 @@ This battleship game has a few features that make it a little more advance.
    ![Battleships layout](images/Python_validator.jpg)
 
 # Bugs
-* There were a few bugs where when the game is loaded in it displays the enemy battleships location and I could not remove it in time.
+* There were a few bugs where when the game is loaded in it displays the enemy battleships location and I fixed the problem.
 * There are a few syntax errors that created problems but were resolved.
+* An error I occured was when I enter different letters or numbers inside the terminal it does not print the error messages even
+though I have added a ValueError which does not print the message when typing something different. I could not fix.
 * There were many lines of code not in place as the code would not run so I had to fix the layout of the code to make sure there were not any code out of place.
+* when you start the game and try and hit a ship the computer board is above the text which I could not move when starting the game.
   ![Python Errors](images/errors_code.jpg)
 
 

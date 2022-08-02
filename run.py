@@ -10,18 +10,18 @@ LETTERS_TO_NUMBERS = {'A':0, 'B':1, 'C':2, 'D':3, 'E':4, 'F':5, 'G':6, 'H':7}
 def print_board(board):
     print("""
     -------BATTLESHIPS-------
-    Pre-reqs: Loops, Strings, Arrays, 2D Arrays, Global Variables, Methods
     How it will work:
     1. A 8x8 grid will have 5 ships of different length randomly placed about
-    2. You will have your own board to place your own ships
+    2. You will have your own board to place your own ships.
+        each ship is different size from [2,3,3,4,5]
     3. You can choose H (horizontal) or V (Vertical) to place ships
     4. You will be asked for the row and column
     5. After all ships placed you can start the game
         you will pick a row and column to target ship.
     6. If all ships are sinked before the computer, you win
         else, you lose if computer sinks your ships
-    Legend:
-    1. "-" = water or empty space
+    Symbols:
+    1. "-" = you missed the ship
     2. "X" = part of ship that was hit
    
 """)
@@ -102,7 +102,7 @@ def user_input(place_ship):
                 if orientation == "H" or orientation == "V":
                     break
             except TypeError:
-                print('Enter a valid orientation H or V')
+                print("Enter a valid orientation H or V")
         while True:
             try: 
                 row = input("Enter the row 1-8 of the ship: ")
