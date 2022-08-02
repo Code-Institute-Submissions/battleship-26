@@ -1,6 +1,20 @@
 # **_Battleships_**
 
 Battleship (also known as Battleships or Sea Battle) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
+ -------BATTLESHIPS-------
+    Pre-reqs: Loops, Strings, Arrays, 2D Arrays, Global Variables, Methods
+    How it will work:
+    1. A 8x8 grid will have 5 ships of different length randomly placed about
+    2. You will have your own board to place your own ships
+    3. You can choose H (horizontal) or V (Vertical) to place ships
+    4. You will be asked for the row and column
+    5. After all ships placed you can start the game
+        you will pick a row and column to target ship.
+    6. If all ships are sinked before the computer, you win
+        else, you lose if computer sinks your ships
+    Legend:
+    1. "-" = water or empty space
+    2. "X" = part of ship that was hit
 
 Welcome to Battleships <a href="https://battleships0.herokuapp.com/" target="_blank" rel="noopener">Battleships </a>
 
