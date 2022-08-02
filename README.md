@@ -2,7 +2,7 @@
 
 Battleship (also known as Battleships or Sea Battle) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
 
-Welcome to Battleships <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank" rel="noopener">Wawas Woods</a>
+Welcome to Battleships <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank" rel="noopener">Battleships </a>
 
 ![Battleships layout](images/battleship_layout.jpg)
 
@@ -81,17 +81,24 @@ This battleship game has a few features that make it a little more advance.
 [Back to top](<#contents>)
 
 # Technologies Used
-* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
-* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
-* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
-* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
-* [Github](https://github.com/) - used to host and edit the website.
+* [Python](https://www.python.org/) - to code the game.
+* [Heroku](https://www.heroku.com/) - to deploy the game.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to edit the game.
+* [Github](https://github.com/) - used to host and show the content.
 
 [Back to top](<#contents>)
 
 # Testing
 
-Please refer to [**_here_**](TESTING.md) for more information on testing Wawas Woods.
+* [Extendclass](https://extendsclass.com/python-tester.html) - I used extended class to test python for syntax errors.
+   ![Battleships layout](images/Python_validator.jpg)
+
+# Bugs
+* There were a few bugs where when the game is loaded in it displays the enemy battleships location and I could not remove it in time.
+* There are a few syntax errors that created problems.
+* There were many lines of code not in place as the code would not run so I had to fix the layout of the code to make sure there were not any code out of place.
+  ![Python Errors](images/errors_code.jpg)
+
 
 [Back to top](<#contents>)
 
