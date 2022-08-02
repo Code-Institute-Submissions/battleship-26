@@ -52,7 +52,7 @@ and column of the game. It is a 2D array and I used - as a miss and X as a hit t
     The design choice was to go for an 8x8 grid which is a good size for all the ships to be able to place on the board and I used lines to create the board and used a seperator on the top to give distance with the Letters and the board
 
 * ### Colour Scheme
-      The colour scheme I chose is basic white for this game.
+      The colour scheme I chose is basic white for this game as it is run in a terminal and is 2D.
 
 
 [Back to top](<#contents>)
@@ -139,25 +139,21 @@ The method from cloning a project from GitHub is below:
 # Credits
 ### Content
 
-* The font came from [Google Fonts](https://fonts.google.com/).
-* The map is embedded from [Google Maps](https://www.google.com/maps).
-* The colour palate was compiled by [Colormind](http://colormind.io/).
-* The icons came from [Font Awesome](https://fontawesome.com/).
-* The form validation idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=fNcJuPIZ2WE).
-* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
-* The inspiration for the Project page sliders came from this repository on [GitHub](https://gist.github.com/zhilinskiy/4603199).
-* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
+* The layout came from part 1 [YouTube](https://www.youtube.com/watch?v=xz9GrOwQ_5E&ab_channel=KnowledgeMavens).
+* The idea came from part 2 [YouTube](https://www.youtube.com/watch?v=CIv7lPZy9nQ&ab_channel=KnowledgeMavens).
+* The full game came from part 3 [YouTube](https://www.youtube.com/watch?v=jshgccgBs2U&ab_channel=KnowledgeMavens).
+
 
 
 ### Media
-* The photos all came from the developer, [Ewan Colquhoun](https://www.linkedin.com/in/ewan-colquhoun-2b3535213/).
-* The photos were compressed using [Compressor](https://compressor.io/).
+* The photos all are my own in the README file and are screenshotted to be used in the README file.
+
 
 [Back to top](<#contents>)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
+The site was completed as a Portfolio 3 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), This is a Python Project.
 
-Ewan Colquhoun 2021.
+Alexander Kealy 2022
 
 [Back to top](<#contents>)
