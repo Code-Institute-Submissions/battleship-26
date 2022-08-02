@@ -2,7 +2,7 @@
 
 Battleship (also known as Battleships or Sea Battle) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
 
-Welcome to Battleships <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank" rel="noopener">Battleships </a>
+Welcome to Battleships <a href="https://battleships0.herokuapp.com/" target="_blank" rel="noopener">Battleships </a>
 
 ![Battleships layout](images/battleship_layout.jpg)
 
@@ -51,7 +51,7 @@ and column of the game. It is a 2D array and I used - as a miss and X as a hit t
 ## Design Choices
     The design choice was to go for an 8x8 grid which is a good size for all the ships to be able to place on the board and I used lines to create the board and used a seperator on the top to give distance with the Letters and the board
 
-* ### Colour Scheme
+ ### Colour Scheme
       The colour scheme I chose is basic white for this game as it is run in a terminal and is 2D.
 
 
@@ -105,33 +105,18 @@ This battleship game has a few features that make it a little more advance.
 # Deployment
 
 ### **To deploy the project**
-The site was deployed to GitHub pages. The steps to deploy a site are as follows:
-  1. In the GitHub repository, navigate to the **Settings** tab.
-  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
-  3. Under **Source**, select the branch to **master**, then click **save**.
-  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to heroku pages. The steps to deploy a site are as follows:
+  1. In the heroku repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the build packs tab on the right hand side.
+  3. Add two packs including Python and NodeJS
+  4. Connect your github account to Heroku to be able to find your repsository.
+  5. You will scroll down and see two choices to do an automatic deploy or manual deploy.
+  ![Heroku pages deployed image](images/automatic_deploy.jpg)
+  
+![Heroku pages deployed image](images/deploy_menu.jpg)
+![Heroku pages deployed image](images/deployment.jpg)
 
-![GitHub pages deployed image](assets/readme-images/deploy.png)
-
-  The live link to the Github repository can be found here - https://github.com/EwanColquhoun/wawaswoods
-
-### **To fork the repository on GitHub**
-A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
-1. Log in to **GitHub** and locate the [repository](https://github.com/EwanColquhoun/wawaswoods).
-2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](assets/readme-images/forking.png)
-
-### **To create a local clone of this project**
-The method from cloning a project from GitHub is below:
-
-1. Under the repository’s name, click on the **code** tab.
-2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
-![Cloning image](assets/readme-images/clone.png)
-3. In your IDE of choice, open **Git Bash**.
-4. Change the current working directory to the location where you want the cloned directory to be made.
-5. Type **git clone**, and then paste the URL copied from GitHub.
-6. Press **enter** and the local clone will be created.
-
+  The live link to the Github repository can be found here - https://github.com/aokealy/battleship
 
 
 [Back to top](<#contents>)
