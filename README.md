@@ -91,6 +91,7 @@ This battleship game has a few features that make it a little more advance.
 * To improve the AI so it is more intelligent.
     * The computer can be more clever when picking ships
 * Improve the design so by adding more layouts instead of just using a basic 2d version.
+* The game needs to be more user friendly and easier to use when playing as it is overwhelming.
 
 [Back to top](<#contents>)
 
@@ -114,6 +115,7 @@ This battleship game has a few features that make it a little more advance.
 though I have added a ValueError which does not print the message when typing something different. I could not fix.
 * There were many lines of code not in place as the code would not run so I had to fix the layout of the code to make sure there were not any code out of place.
 * when you start the game and try and hit a ship the computer board is above the text which I could not move when starting the game.
+* I realise since there are no error messages the game may come across as confusing and not user friendly.
   ![Python Errors](images/errors_code.jpg)
 
 
