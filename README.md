@@ -1,7 +1,7 @@
 # **_Battleships_**
 
 Battleship (also known as Battleships or Sea Battle) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
- -------BATTLESHIPS-------
+# ** -------BATTLESHIPS------- **
     Pre-reqs: Loops, Strings, Arrays, 2D Arrays, Global Variables, Methods
     How it will work:
     1. A 8x8 grid will have 5 ships of different length randomly placed about
