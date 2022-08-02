@@ -108,6 +108,9 @@ This battleship game has a few features that make it a little more advance.
 * [Extendclass](https://extendsclass.com/python-tester.html) - I used extended class to test python for syntax errors.
    ![Battleships layout](images/Python_validator.jpg)
 
+* [PEP8](http://pep8online.com/) - I used PEP8 to test python for syntax errors.
+   ![Battleships layout](images/PEP8-Validator.jpg)
+
 # Bugs
 * There were a few bugs where when the game is loaded in it displays the enemy battleships location and I fixed the problem.
 * There are a few syntax errors that created problems but were resolved.

@@ -11,9 +11,9 @@ def print_board(board):
     print("""
     -------BATTLESHIPS-------
     How it will work:
-    1. A 8x8 grid will have 5 ships of different length randomly placed about
-    2. You will have your own board to place your own ships.
-        each ship is different size from [2,3,3,4,5]
+    1. A 8x8 grid will have 5 ships of different length randomly placed for the computer.
+    2. You will have your own board where you must place ships before the game starts.
+        each ship is different size ranging from [2,3,3,4,5]
     3. You can choose H (horizontal) or V (Vertical) to place ships
     4. You will be asked for the row and column
     5. After all ships placed you can start the game
@@ -23,6 +23,7 @@ def print_board(board):
     Symbols:
     1. "-" = you missed the ship
     2. "X" = part of ship that was hit
+    3. Hit all 5 ships to win the game.
    
 """)
     print("  A B C D E F G H")
